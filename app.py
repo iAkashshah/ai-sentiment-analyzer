@@ -35,7 +35,7 @@ def get_sentiment(raw_label, score):
         return f"Unknown ({raw_label})", "#ffffff", "neutral"
 
 st.title("🤖 AI Sentiment Analyzer")
-st.caption("**Powered by RoBERTa** • Now 100% robust")
+st.caption("**build by Akash Shah** • Detects nature of comments in Fast as furious")
 
 tab1, tab2, tab3 = st.tabs(["📝 Single Text", "📊 Batch Upload", "📈 Dashboard"])
 
